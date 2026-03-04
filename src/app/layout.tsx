@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '../components/Navbar'
 import { Roboto_Mono, Roboto } from 'next/font/google'
 import type { Metadata } from 'next'
+import Footer from '@/components/Footer';
 
 // Configurazione Roboto (Sans-serif)
 const roboto = Roboto({ 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-brand-dark text-white antialiased">
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )

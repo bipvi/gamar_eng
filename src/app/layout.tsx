@@ -1,32 +1,44 @@
 // src/app/layout.tsx
 import './globals.css'
 import Navbar from '../components/Navbar'
-import { Roboto_Mono, Roboto } from 'next/font/google'
+import localFont from "next/font/local";
 import type { Metadata } from 'next'
 import Footer from '@/components/Footer';
 
-// Configurazione Roboto (Sans-serif)
-const roboto = Roboto({ 
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-roboto", 
+const mokoto = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Mokoto.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-mokoto",
+  display: "swap",
 });
 
-// Configurazione Roboto Mono (Per i richiami tecnici // )
-const robotoMono = Roboto_Mono({
-  subsets: ["latin"],
-  variable: "--font-roboto-mono",
+// Glacial Indifference — font base per tutto il resto
+const glacial = localFont({
+  src: [
+    {
+      path: "../../public/fonts/GlacialIndifference-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-glacial",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Gamar Engineering | Precision Solutions",
-  description: "Sistemi integrati ad alta precisione e Industria 4.0",
+  title: "Gamar Engineering",
+  description: "Tecnologia · Visione · Sicurezza",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="it" className={`${roboto.variable} ${robotoMono.variable}`}>
-      <body className="bg-brand-dark text-white antialiased">
+    <html lang="it" className={`${mokoto.variable} ${glacial.variable}`}>
+      <body className="bg-brand-dark text-white antialiased font-glacial">
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -22,8 +22,8 @@ export default function ChiSiamoSection() {
         {/* Big title */}
         <div className="text-center mb-20">
           <h2
-            className="text-4xl md:text-6xl font-black tracking-widest text-white mb-4"
-            style={{ fontFamily: "'Orbitron', monospace", textShadow: "0 0 30px rgba(59,130,246,0.4)" }}
+            className="font-mokoto text-4xl md:text-6xl font-black tracking-widest text-white mb-4"
+            
           >
             TECNOLOGIA · VISIONE · SICUREZZA
           </h2>

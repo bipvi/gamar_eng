@@ -36,7 +36,7 @@ export default function ContestoSection() {
             style={{ fontFamily: "'Orbitron', monospace" }}>
             IL CONTESTO
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+          <h2 className="font-mokoto text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Il settore della Difesa<br />
             <span className="text-blue-400">sta cambiando</span>
           </h2>

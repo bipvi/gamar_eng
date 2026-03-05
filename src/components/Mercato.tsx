@@ -22,12 +22,12 @@ export default function MercatoSection() {
       <div className="relative z-10 max-w-6xl mx-auto px-6">
 
         {/* TARGET DI MERCATO */}
-        <div className="mb-24">
+        <div className="">
           <div className="text-center mb-14">
             <p className="text-blue-400 text-sm tracking-[0.3em] mb-3"
               style={{ fontFamily: "'Orbitron', monospace" }}>DOVE OPERIAMO</p>
-            <h2 className="text-4xl md:text-5xl font-black text-white tracking-widest"
-              style={{ fontFamily: "'Orbitron', monospace" }}>
+            <h2 className="font-mokoto text-4xl md:text-5xl font-black text-white tracking-widest"
+              >
               TARGET DI MERCATO
             </h2>
             <div className="w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent mt-8" />
@@ -59,45 +59,6 @@ export default function MercatoSection() {
                 </div>
                 <h3 className="text-blue-300 font-bold text-lg mb-3">{item.title}</h3>
                 <p className="text-blue-200/60 text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* CLIENTI */}
-        <div className="mb-20">
-          <div className="mb-8">
-            <p className="text-blue-400 text-xs tracking-[0.3em] mb-2"
-              style={{ fontFamily: "'Orbitron', monospace" }}>CLIENTI CHIAVE</p>
-            <h3 className="text-2xl font-bold text-white">Una rete consolidata in 25 anni</h3>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            {clienti.map((c, i) => (
-              <span
-                key={i}
-                className="border border-blue-800/50 text-blue-200/70 text-sm px-4 py-2 rounded-lg bg-blue-950/20 hover:border-blue-400/50 hover:text-blue-100 transition-all duration-300"
-              >
-                {c}
-              </span>
-            ))}
-            <span className="border border-blue-800/30 text-blue-400/40 text-sm px-4 py-2 rounded-lg italic">
-              e molti altri...
-            </span>
-          </div>
-        </div>
-
-        {/* PARTNERSHIP */}
-        <div>
-          <div className="mb-8">
-            <p className="text-blue-400 text-xs tracking-[0.3em] mb-2"
-              style={{ fontFamily: "'Orbitron', monospace" }}>PARTNERSHIP STRATEGICHE</p>
-            <h3 className="text-2xl font-bold text-white">Università e Centri di Ricerca</h3>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {partners.map((p, i) => (
-              <div key={i}
-                className="border border-blue-700/40 rounded-xl p-6 text-center bg-blue-950/20 hover:border-blue-500/50 transition-all duration-300">
-                <p className="text-white font-semibold text-sm">{p}</p>
               </div>
             ))}
           </div>

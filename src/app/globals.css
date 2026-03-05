@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+.font-mokoto {
+  font-family: 'mokoto';
+  --neon-color: #022844; /* Ciano glaciale */
+  color: #fff;
+  transition: all 0.2s ease; /* Transizione fluida per l'accensione */
+  
+  /* Stato iniziale: luce spenta o soffusa */
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.font-mokoto:hover {
+  /* Effetto Neon Acceso */
+  text-shadow:
+    /* 1. Nucleo Bianco (brillantezza interna) */
+    0 0 5px #fff,
+    0 0 10px #fff,
+    /* 2. Colore Vibrante (alone vicino) */
+    0 0 20px var(--neon-color);
+    
+  /* Opzionale: un leggero aumento di luminosità del testo stesso */
+  color: #fff;
+}

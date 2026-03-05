@@ -60,8 +60,8 @@ export default function ServiziSection() {
             style={{ fontFamily: "'Orbitron', monospace" }}>
             COSA OFFRIAMO
           </p>
-          <h2 className="text-4xl md:text-5xl font-black text-white tracking-widest"
-            style={{ fontFamily: "'Orbitron', monospace" }}>
+          <h2 className="font-mokoto text-4xl md:text-5xl font-black text-white tracking-widest"
+            >
             PRODOTTI & SERVIZI
           </h2>
           <div className="w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent mt-8" />

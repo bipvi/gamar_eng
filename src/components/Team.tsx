@@ -14,8 +14,8 @@ export default function TeamCTASection() {
           <div className="text-center mb-16">
             <p className="text-blue-400 text-sm tracking-[0.3em] mb-3"
               style={{ fontFamily: "'Orbitron', monospace" }}>LE PERSONE</p>
-            <h2 className="text-4xl md:text-5xl font-black text-white tracking-widest"
-              style={{ fontFamily: "'Orbitron', monospace" }}>
+            <h2 className="font-mokoto text-4xl md:text-5xl font-black text-white tracking-widest"
+              >
               IL TEAM
             </h2>
             <div className="w-full h-px bg-gradient-to-r from-transparent via-blue-500 to-transparent mt-8" />
@@ -72,7 +72,7 @@ export default function TeamCTASection() {
             style={{ fontFamily: "'Orbitron', monospace" }}>
             AMBITION
           </p>
-          <h2 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
+          <h2 className="font-mokoto text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
             Siamo pronti a<br />
             costruirlo…<span className="text-blue-400">Insieme</span>
           </h2>

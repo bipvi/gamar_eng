@@ -25,10 +25,12 @@ const config: Config = {
         'hero-glow': "radial-gradient(circle at center, rgba(14, 165, 233, 0.15) 0%, transparent 70%)",
       },
       fontFamily: {
-        // Font "Mono" per un feeling da ingegneria
-        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'monospace'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        // uso: className="font-mokoto"
+        mokoto: ["var(--font-mokoto)", "sans-serif"],
+        // uso: className="font-glacial" (oppure è il default del body)
+        glacial: ["var(--font-glacial)", "sans-serif"],
       },
+
       boxShadow: {
         // Effetto neon per i bordi delle card
         'neon-blue': '0 0 15px rgba(14, 165, 233, 0.2)',

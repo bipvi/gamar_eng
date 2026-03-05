@@ -52,7 +52,7 @@ export default function Contatti() {
             style={{ fontFamily: "'Orbitron', monospace" }}>
             INIZIAMO A COLLABORARE
           </p>
-          <h1 className="text-4xl md:text-5xl font-black text-white tracking-widest mb-4"
+          <h1 className="font-mokoto text-4xl md:text-5xl font-black text-white tracking-widest mb-4"
             style={{ fontFamily: "'Orbitron', monospace" }}>
             CONNETTIAMOCI
           </h1>

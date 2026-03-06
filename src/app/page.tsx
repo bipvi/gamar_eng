@@ -12,7 +12,6 @@ export default function Home() {
 
     <div>
       <HeroSection />
-      <ContestoSection />
       <VisionMissionSection />
       <ValoriSection />
       <MercatoSection />

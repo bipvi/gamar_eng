@@ -57,9 +57,6 @@ export default function Contatti() {
             CONNETTIAMOCI
           </h1>
           <div className="w-32 h-px mx-auto bg-gradient-to-r from-transparent via-blue-500 to-transparent mb-6" />
-          <p className="text-blue-200/50 text-sm leading-relaxed">
-            Compila il form per una consulenza tecnica gratuita.
-          </p>
         </div>
 
         {/* Form */}

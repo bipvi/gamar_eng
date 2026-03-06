@@ -31,4 +31,4 @@ services:
       - SMTP_HOST=smtp.office365.com
       - SMTP_PORT=587
       - SMTP_USER=noreply@gamarengineering.com
-      - SMTP_PASS=jqdgxpbskswtskpj
+      - SMTP_PASS=jrnkyprcdwwtbldm

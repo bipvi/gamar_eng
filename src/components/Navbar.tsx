@@ -6,8 +6,6 @@ import Image from "next/image";
 const links = [
   { href: "/chi-siamo", label: "Chi Siamo" },
   { href: "/servizi", label: "Servizi" },
-  { href: "/progetti", label: "Progetti" },
-  { href: "/contatti", label: "Contatti" },
 ];
 
 export default function Navbar() {
@@ -40,7 +38,7 @@ export default function Navbar() {
               alt="Gama.R Logo"
               width={180}
               height={30}
-              className="navlogo h-40 mt-4 w-auto group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)] transition-all duration-300"
+              className="navlogo h-30 mt-4 w-auto group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.8)] transition-all duration-300"
             />
           </Link>
 
@@ -57,6 +55,14 @@ export default function Navbar() {
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-gradient-to-r from-blue-400 to-cyan-400 group-hover:w-full transition-all duration-500" />
               </Link>
             ))}
+            <Link
+                href="#contatti"
+                className="relative text-xs tracking-[0.2em] font-medium text-blue-200/50 hover:text-blue-300 transition-colors duration-300 group uppercase"
+                style={{ fontFamily: "'Orbitron', monospace" }}
+              >
+                Contatti
+                <span className="absolute -bottom-1 left-0 w-0 h-px bg-gradient-to-r from-blue-400 to-cyan-400 group-hover:w-full transition-all duration-500" />
+              </Link>
           </div>
 
           {/* Mobile hamburger */}
@@ -94,6 +100,13 @@ export default function Navbar() {
               {l.label}
             </Link>
           ))}
+          <Link 
+            href="#contatti"
+             className="flex items-center gap-3 text-xs tracking-[0.2em] font-medium text-blue-200/50 hover:text-blue-300 transition-colors uppercase"
+              style={{ fontFamily: "'Orbitron', monospace" }}>
+              <div className="w-1.5 h-1.5 rounded-full bg-blue-500/30" />
+              Contatti
+            </Link>
         </div>
       </div>
     </>

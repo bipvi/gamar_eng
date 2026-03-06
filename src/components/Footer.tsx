@@ -5,12 +5,12 @@ import CircuitBackground from "./CircuitBackground";
 import { LuMapPin } from "react-icons/lu";
 import { TbWorld } from "react-icons/tb";
 import { HiOutlineMail } from "react-icons/hi";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const links = [
   { href: "/chi-siamo", label: "Chi Siamo" },
   { href: "/servizi", label: "Servizi" },
-  { href: "/progetti", label: "Progetti" },
-  { href: "/contatti", label: "Contatti" },
+  { href: "#contatti", label: "Contatti" },
 ];
 
 // Sostituisci i path con i percorsi reali dei tuoi SVG in /public
@@ -67,15 +67,6 @@ export default function Footer() {
 
           {/* Col 1 — Logo + descrizione */}
           <div className="space-y-6">
-            <Link href="/" className="flex items-center gap-3 group w-fit">
-              <Image
-                src="/logo.svg"
-                alt="Gama.R Logo"
-                width={140}
-                height={40}
-                className="h-10 w-auto group-hover:drop-shadow-[0_0_8px_rgba(96,165,250,0.6)] transition-all duration-300"
-              />
-            </Link>
             <p className="text-blue-200/35 text-sm leading-relaxed max-w-xs">
               Soluzioni integrate in A.I., cybersecurity avanzata e tecnologie quantistiche per la Difesa, l'Aereospazio e l'Industria ad alta tecnologia.
             </p>
@@ -122,20 +113,19 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <TbWorld className="text-blue-500/60 mt-0.5 flex-shrink-0 w-4 h-4" />
-                <a href="https://www.gamarengineering.com" target="_blank" rel="noopener noreferrer"
-                  className="hover:text-blue-300 transition-colors">
-                  www.gamarengineering.com
+                <FaPhoneAlt  className="text-blue-500/60 mt-0.5 flex-shrink-0 w-4 h-4" />
+                <a href="tel:+390546062422" className="hover:text-blue-300 transition-colors">
+                  +39 0546 062422
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <LuMapPin className="text-blue-500/60 mt-0.5 flex-shrink-0 w-4 h-4" />
-                <span>Italia</span>
+                <span>Castel Bolognese (RA)</span>
               </li>
               <li className="pt-2 border-t border-blue-900/15">
                 <span className="text-blue-400/20 text-xs tracking-wide"
                   style={{ fontFamily: "'Orbitron', monospace" }}>
-                  P.IVA: XXXXXXXXXXXXXXX
+                  P.IVA: 02815210394
                 </span>
               </li>
             </ul>
@@ -146,14 +136,10 @@ export default function Footer() {
         <div className="py-6 border-t border-blue-900/15 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-blue-200/20 text-xs tracking-widest"
             style={{ fontFamily: "'Orbitron', monospace" }}>
-            © {year} GAMA.R ENGINEERING — ALL RIGHTS RESERVED
+            © {year} GAMAR ENGINEERING — ALL RIGHTS RESERVED
           </p>
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-blue-500/20 animate-pulse" />
-            <span className="text-blue-400/30 text-xs tracking-widest"
-              style={{ fontFamily: "'Orbitron', monospace" }}>
-              MADE IN ITALY
-            </span>
           </div>
         </div>
 

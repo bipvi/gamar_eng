@@ -37,14 +37,6 @@ const servizi: {
     title: "Crittografia Quantistica",
     desc: "Quantum Key Distribution (QKD): distribuzione di chiavi crittografiche impossibili da intercettare senza essere scoperti. Non si basa sulla complessità matematica, ma sulla natura stessa della realtà.",
     tag: "QUANTUM",
-    highlight: true,
-  },
-  {
-    icon: PiWaveformBold,
-    title: "Neuro Control System",
-    desc: "Controllo di dispositivi tramite segnali cerebrali — senza microchip impiantati, senza joystick, solo indossando il nostro dispositivo.",
-    tag: "NEURO",
-    highlight: true,
   },
 ];
 
@@ -68,16 +60,9 @@ export default function ServiziSection() {
         </div>
 
         {/* Top 3 standard */}
-        <div className="grid md:grid-cols-3 gap-6 mb-6">
-          {servizi.slice(0, 3).map((s, i) => (
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          {servizi.slice(0, 4).map((s, i) => (
             <ServiceCard key={i} s={s} />
-          ))}
-        </div>
-
-        {/* Bottom 2 highlighted */}
-        <div className="grid md:grid-cols-2 gap-6">
-          {servizi.slice(3).map((s, i) => (
-            <ServiceCard key={i} s={s} large />
           ))}
         </div>
       </div>

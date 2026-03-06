@@ -67,12 +67,12 @@ export default function TeamCTASection() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,_#0a2a6e12_0%,_transparent_70%)]" />
         <CircuitBackground />
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+        <section className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-blue-400 text-sm tracking-[0.4em] mb-6"
             style={{ fontFamily: "'Orbitron', monospace" }}>
             AMBITION
           </p>
-          <h2 className="font-mokoto text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
+          <h2 id="contatti" className="font-mokoto text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
             Siamo pronti a<br />
             costruirlo…<span className="text-blue-400">Insieme</span>
           </h2>
@@ -82,20 +82,17 @@ export default function TeamCTASection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contatti"
-              className="px-10 py-4 border border-blue-500/50 text-blue-300 hover:border-blue-400 hover:text-white font-bold rounded-lg transition-all duration-300 tracking-wider text-sm hover:bg-blue-900/30"
-              style={{ fontFamily: "'Orbitron', monospace" }}
-            >
-              CONTATTACI
-            </Link>
+            <a href="mailto:info@gamarengineering.com"
+                  className="px-10 py-4 border border-blue-500/50 text-blue-300 hover:border-blue-400 hover:text-white font-bold rounded-lg transition-all duration-300 tracking-wider text-sm hover:bg-blue-900/30">
+                  CONTATTACI
+                </a>
           </div>
 
           <p className="mt-12 text-blue-400/40 text-sm tracking-widest"
             style={{ fontFamily: "'Orbitron', monospace" }}>
             www.gamarengineering.com
           </p>
-        </div>
+        </section>
       </section>
     </>
   );

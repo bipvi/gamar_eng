@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Mokoto';
+  src: url('/fonts/Mokoto.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-mokoto {
-  font-family: 'mokoto';
+  font-family: 'Mokoto';
   --neon-color: #022844; /* Ciano glaciale */
   color: #fff;
   transition: all 0.2s ease; /* Transizione fluida per l'accensione */

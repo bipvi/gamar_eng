@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 const mokoto = localFont({
   src: [
     {
-      path: "../../public/fonts/Mokoto.woff2",
+      path: "/fonts/Mokoto.woff2",
       weight: "400",
       style: "normal",
     },
@@ -21,7 +21,7 @@ const mokoto = localFont({
 const glacial = localFont({
   src: [
     {
-      path: "../../public/fonts/GlacialIndifference-Regular.woff2",
+      path: "/fonts/GlacialIndifference-Regular.woff2",
       weight: "400",
       style: "normal",
     },

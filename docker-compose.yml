@@ -25,10 +25,3 @@ services:
     container_name: nextjs-prod
     ports:
       - "3001:3000" # Mappato sulla 3001 per non andare in conflitto con dev
-    environment:
-      - NODE_ENV=production
-      # Inserisci qui le tue variabili SMTP che abbiamo configurato prima
-      - SMTP_HOST=smtp.office365.com
-      - SMTP_PORT=587
-      - SMTP_USER=noreply@gamarengineering.com
-      - SMTP_PASS=jrnkyprcdwwtbldm

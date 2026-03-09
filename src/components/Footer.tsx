@@ -8,8 +8,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const links = [
-  { href: "/chi-siamo", label: "Chi Siamo" },
-  { href: "/servizi", label: "Servizi" },
+  { href: "#chi-siamo", label: "Chi Siamo" },
+  { href: "#servizi", label: "Prodotti & Servizi" },
   { href: "#contatti", label: "Contatti" },
 ];
 
@@ -37,8 +37,8 @@ export default function Footer() {
 
         {/* ── PARTNER LOGOS ── */}
         <div className="py-14 border-b border-blue-900/15">
-          <p className="text-center text-blue-400/30 text-xs tracking-[0.4em] mb-10 uppercase text-4xl"
-            style={{ fontFamily: "'Orbitron', monospace" , fontSize:"medium"}}>
+          <p className="text-center text-blue-400 text-xs tracking-[0.4em] mb-10 uppercase text-4xl"
+            style={{ fontFamily: "'Orbitron', monospace" , fontSize:"large"}}>
             I Nostri Partner
           </p>
           <div className="flex flex-wrap items-center justify-center gap-10 md:gap-5">

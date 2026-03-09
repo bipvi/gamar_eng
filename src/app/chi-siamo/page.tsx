@@ -38,7 +38,9 @@ export default function ChiSiamoSection() {
             </p>
             <p className="text-blue-200/70 leading-relaxed mb-10">
               Nata dall'esperienza commerciale e tecnica maturata in oltre{" "}
-              <span className="text-white font-bold">25 anni</span> con i principali attori nazionali, offriamo integrazione rapida, indipendenza tecnologica e competenze multidisciplinari per progetti ad alto contenuto innovativo.
+              <span className="text-white font-bold">25 anni</span> con le principali aziende tecnologiche italianie nei settori della Difesa, Offshore, F1/ Motogp Racing, Automotive ed Energia quali : Leonardo Company, Iveco Defence, Wass, Elettronica spa, Fincantieri, Navarm, MMI, Saipem, Eni, Thales, Thales Alenia Space, L3 Comunication, Agusta Westland, Oma spa, CIRA, Ferrari, Ducati Corse, Brembo, TRW Sipea, Astra, New Holland, Gruppo Cobo, MTA, Selcom spa e tante altre…
+<br/>Offriamo integrazione rapida, indipendenza tecnologica e competenze multidisciplinari per progetti ad alto contenuto innovativo.
+{" "}
             </p>
 
             {/* Stats */}

@@ -14,7 +14,7 @@ const sectors: { icon: IconType; label: string }[] = [
 
 export default function ChiSiamoSection() {
   return (
-    <section className="relative py-28 bg-[#010812] overflow-hidden">
+    <section id="chi-siamo" className="relative py-28 bg-[#010812] overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,_#0a2a6e15_0%,_transparent_70%)]" />
       <CircuitBackground />
 
@@ -78,7 +78,6 @@ export default function ChiSiamoSection() {
           </div>
         </div>
       </div>
-      <TeamCTASection />
     </section>
   );
 }

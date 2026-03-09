@@ -27,7 +27,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#00060e] overflow-hidden border-t border-blue-900/20">
+    <footer className="relative bg-[#010b1a] overflow-hidden border-t border-blue-900/20">
       <CircuitBackground />
 
       {/* Top accent line */}
@@ -37,11 +37,11 @@ export default function Footer() {
 
         {/* ── PARTNER LOGOS ── */}
         <div className="py-14 border-b border-blue-900/15">
-          <p className="text-center text-blue-400/30 text-xs tracking-[0.4em] mb-10 uppercase"
-            style={{ fontFamily: "'Orbitron', monospace" }}>
+          <p className="text-center text-blue-400/30 text-xs tracking-[0.4em] mb-10 uppercase text-4xl"
+            style={{ fontFamily: "'Orbitron', monospace" , fontSize:"medium"}}>
             I Nostri Partner
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-10 md:gap-16">
+          <div className="flex flex-wrap items-center justify-center gap-10 md:gap-5">
             {partnerLogos.map((logo, i) => (
               <div
                 key={i}
@@ -50,12 +50,12 @@ export default function Footer() {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={120}
+                  width={150}
                   height={48}
-                  className="h-30 w-auto object-contain"
+                  className="h-40 w-auto object-contain"
                 />
                 {/* Glow on hover */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                <div className=" group-hover:opacity-100 transition-opacity duration-500"
                   style={{ filter: "drop-shadow(0 0 8px rgba(96,165,250,0.4))" }} />
               </div>
             ))}

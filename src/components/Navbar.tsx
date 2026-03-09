@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const links = [
-  { href: "/chi-siamo", label: "Chi Siamo" },
-  { href: "/servizi", label: "Servizi" },
+  { href: "#chi-siamo", label: "Chi Siamo" },
+  { href: "#servizi", label: "Prodotti & Servizi" },
 ];
 
 export default function Navbar() {

@@ -67,12 +67,12 @@ export default function TeamCTASection() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_50%,_#0a2a6e12_0%,_transparent_70%)]" />
         <CircuitBackground />
 
-        <section className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+        <section id="contatti" className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-blue-400 text-sm tracking-[0.4em] mb-6"
-            style={{ fontFamily: "'Orbitron', monospace" }}>
+            style={{ fontFamily: "'Orbitron', monospace" , fontSize:"xx-large"}}>
             AMBITION
           </p>
-          <h2 id="contatti" className="font-mokoto text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
+          <h2 className="font-mokoto text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
             Siamo pronti a<br />
             costruirlo…<span className="text-blue-400">Insieme</span>
           </h2>

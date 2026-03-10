@@ -34,9 +34,9 @@ const servizi: {
   },
   {
     icon: MdOutlineHub,
-    title: "Crittografia Quantistica",
-    desc: "Quantum Key Distribution (QKD): distribuzione di chiavi crittografiche impossibili da intercettare senza essere scoperti. Non si basa sulla complessità matematica, ma sulla natura stessa della realtà.",
-    tag: "QUANTUM",
+    title: "Crittografia Avanzata e Quantum-Safe",
+    desc: "Analizziamo l’affidabilità dei protocolli attuali attraverso rigorosi test logici e progettiamo nuovi sistemi di cifratura per le sfide di domani. La nostra ricerca si spinge oltre la crittografia tradizionale, sperimentando protocolli resistenti ai computer quantistici e soluzioni di Quantum Key Distribution (QKD).",
+    tag: "CRITTOGRAFIA",
   },
 ];
 
